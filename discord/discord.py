@@ -14,5 +14,4 @@ async def on_ready():
     print(bot.user.id)
     print('------')    
 
-# bot.run("통큰")
-bot.run("NzYyMTUzMTQyNTgxNzIzMTU2.X3lAbQ.vefBXPFyk-Jy6Cg7jaDK67Xw-NU")
+bot.run("통큰")
