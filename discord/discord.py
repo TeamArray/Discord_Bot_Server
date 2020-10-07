@@ -3,15 +3,15 @@ import asyncio
 #import random
 from discord import embed
 from discord.ext import commands
-from discord.ext.commands import Bot
+from discord.ext.commands import client
 
-bot = discord.Client()
+client = discord.Client()
 
-@bot.event
+@client.event
 async def on_ready():
     print('Logged in as')
     print(bot.user.name)
     print(bot.user.id)
     print('------')    
 
-bot.run("통큰")
+client.run("통큰")
