@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+    discord_bot_python:
+        build: ./
+        restart: always
+        container_name: discord_bot_Python

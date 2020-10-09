@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-    discord_bot:
-        build: ./
-        restart: always
-        command: python3 discord.py
-        container_name: discord_bot

@@ -1,0 +1,21 @@
+FROM debian:latest
+
+RUN apt-get update && apt-get -y upgrade
+
+RUN apt-get -y install sudo\
+                    unzip\
+                    wget\
+                    net-tools\
+                    ufw\
+                    git\
+                    npm
+
+RUN apt-get update && apt-get -y upgrade
+
+RUN apt-get -y install nodejs
+
+RUN npm install discord.js
+
+COPY discord.js .
+
+CMD ["node","./discord.js"]
