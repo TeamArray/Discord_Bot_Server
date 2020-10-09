@@ -16,6 +16,6 @@ RUN apt-get -y install nodejs
 
 RUN npm install discord.js
 
-COPY discord.js .
+COPY app.js .
 
-CMD ["node","./discord.js"]
+CMD ["node","./app.js"]
