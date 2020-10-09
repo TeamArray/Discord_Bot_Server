@@ -12,14 +12,4 @@ async def on_ready():
     print(bot.user.id)
     print('------') 
 
-
-@bot.event
-async def on_message(message):
-    if message.author.bot:
-        return None
-    if message.content.startswith('!ping'):
-        latancy = bot.latency
-        await ctx.send(f'Ping! {round(latancy*1000)}ms')
-
-
-bot.run("NzYyMjkzNTAzOTI1MDI2ODQ2.X3nDJg.r6e6TtHklcSf-JIEJ6WUa97ez9M")
+bot.run("통큰")
