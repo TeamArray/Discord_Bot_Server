@@ -24,7 +24,7 @@ pip3 install 플러그인 이름\
 2.도커 빌드 하기 
 ---
 도커 빌드는 리눅스에서는 폴더에 들어가서 
-docker-compose up을 진행 해주세요
+docker-compose up을 진행 해주세요 
 만약 오류나서 다시 빌드을 진행을 하야하는 경우
 
 docker-compose build을 진행을 하고 
