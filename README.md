@@ -1,7 +1,7 @@
 # Discord_Bot_Server
 ---
 
-# <a hrae="https://github.com/TeamArray/Discord_Bot_Server/1.sh">리눅스 도커 ,docker-compose 설치</a>
+<a hrae="https://github.com/TeamArray/Discord_Bot_Server/1.sh">리눅스 도커 ,docker-compose 설치</a>
 
 1.set
 ---
